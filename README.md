@@ -41,18 +41,11 @@ pip install ultralytics opencv-python torch torchvision
 
 Run Object Detection
 python ObjectDetection.py
+
 📊 Example Output
 Input: Raw image
-
 Output: Annotated image with bounding boxes stored in unique_detections/images/
-
 Labels: YOLOv8 format stored in unique_detections/labels/
-
-📌 Future Enhancements
-🔴 Webcam / Live video stream detection
-📦 Integration with Flask/Django for web API
-📱 Mobile deployment using ONNX/TFLite
-📊 Performance comparison with YOLOv5/YOLOv7
 
 📜 License
 This project is licensed under the MIT License.
